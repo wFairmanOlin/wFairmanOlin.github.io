@@ -3,7 +3,7 @@ layout: post
 title: "Smart Calendar"
 ---
 
-# Program Architecture
+## Program Architecture
 
 Our overall program structure consists of a web interface and a scheduling program which interfaces with Google Calendar. Through the web interface, the user can create both time-defined events and to-do items without a set time. Time-defined events are scheduled directly to the user's Google Calendar, while to-do items are added to a list which the scheduling program schedules in the user's free time.
 
@@ -15,7 +15,7 @@ As the user uses the app, the program records data of what types of activities t
 
 In addition to remembering scheduling habits, the program takes user feedback into account to adjust the cost matrix. The user can accept or reject a proposed schedule from the web interface, and this feedback will update the stored preference data.
 
-## Linear assignment
+### Linear assignment
 
 Our program relies on a linear assignment solver from SciPy to assign unscheduled tasks to available time slots. It breaks up the day into time blocks the same length as the longest event to schedule and assigns the longest events to time blocks in a way that minimizes cost. It does this several times to find the lowest cost by having the time blocks start at different offsets.
 
@@ -23,7 +23,7 @@ Once the longest events are scheduled, the next longest batch of tasks is schedu
 
 ![](/assets/AR_2.png)
 
-## Detailed Program Architecture
+### Detailed Program Architecture
 
 Below is a more detailed diagram of how different parts of our program interact.
 
