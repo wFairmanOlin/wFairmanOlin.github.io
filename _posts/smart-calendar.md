@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Smart Calendar
+title: "Smart Calendar"
 ---
 
 # Program Architecture
