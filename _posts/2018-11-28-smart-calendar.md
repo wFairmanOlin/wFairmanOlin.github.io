@@ -9,7 +9,7 @@ Our overall program structure consists of a web interface and a scheduling progr
 
 The scheduling program works by getting a list of busy and free time blocks from Google Calendar, then using a dynamic linear assignment algorithm to schedule to-do items in the free time blocks.
 
-![](images/structure.png)
+![](assets/structure.png)
 
 As the user uses the app, the program records data of what types of activities the user prefers to do at certain times of day or days of the week. This is used to create a cost matrix for doing a given activity at a certain time. This cost matrix allows the assignment algorithm to create a schedule that aligns with the user's habits and preferences.
 
@@ -21,10 +21,10 @@ Our program relies on a linear assignment solver from SciPy to assign unschedule
 
 Once the longest events are scheduled, the next longest batch of tasks is scheduled in the same way, trying different time block offsets to optimize the schedule.
 
-![](images/AR_2.png)
+![](assets/AR_2.png)
 
 ## Detailed Program Architecture
 
 Below is a more detailed diagram of how different parts of our program interact.
 
-![](images/Screenshot%20from%202018-04-24%2014-00-34.png)
+![](assets/Screenshot%20from%202018-04-24%2014-00-34.png)
