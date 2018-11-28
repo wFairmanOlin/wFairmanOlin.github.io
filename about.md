@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="assets/profile.jpg" style="width:350px;">
+![profile](assets/profile.jpg)
 
 I am a sophomore at Olin College of Engineering pursuing a degree in Electrical and Computer
 engineering.
