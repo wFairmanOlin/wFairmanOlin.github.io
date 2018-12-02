@@ -45,6 +45,11 @@ minima:
 # Build settings
 theme: minima
 
+defaults:
+  - scope:
+    path: "assets"
+    values:
+      image: true
 #plugins:
 # - jekyll-feed
 # - jekyll-seo-tag
