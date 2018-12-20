@@ -47,7 +47,7 @@ theme: minima
 
 defaults:
   - scope:
-    path: "assets"
+    path: "assets/img"
     values:
       image: true
 #plugins:
