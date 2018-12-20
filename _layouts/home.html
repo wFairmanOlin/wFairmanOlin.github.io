@@ -12,7 +12,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
   <h3>
   </h3>
-    <img src="assets/img/fill.png" style ="width:700px" >
+    <img src="assets/img/fill.png" style ="width:1200px" >
     <h2 class="post-list-heading">{{ page.list_title | default: "Project Portfolio" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
@@ -20,7 +20,7 @@ layout: default
         <!--{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span> -->
         {%- if post.image -%}
-          <img src="{{ post.image }}" style="width:128px">
+          <img src="{{ post.image }}" style="width:300px">
         {%- endif -%}
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
