@@ -9,7 +9,8 @@ that requires simple commands per bot but demonstrates the ability of our robots
 
 
 ## CrabBot
-![](/assets/img/crabbot_low.png)
+<img src="/assets/img/crabbot_low.png" style="width:400px;">
+<!-- ![](/assets/img/crabbot_low.png) -->
 
 Each robot has an array of photodiodes, a RGB led strip, and a 3-axis accelerometer to interact with environmental stimuli
 and other robots. The photodiodes allow each robot to sense the relative location of other bots in its vicinity while the accelerometer
@@ -24,7 +25,8 @@ Since our goal was to create several of our little CrabBots, it was important th
  shell and battery housing.
 
 ## Electrical Subsystem
-![](/assets/img/layout_rendered_low.png)
+<img src="/assets/img/layout_rendered_low.png" style="width:400px;">
+<!-- ![](/assets/img/layout_rendered_low.png) -->
 
 To handle a large amount of sensors and outputs in a small package, we created a PCB to house all of the electrical components. The board contains:
 *  An Atmega328PB
