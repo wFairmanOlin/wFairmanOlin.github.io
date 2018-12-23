@@ -35,3 +35,5 @@ To handle a large amount of sensors and outputs in a small package, we created a
 
 A driving factor for the design of our PCB was the relatively short time scale of the project. To allow for simple programming, we decided to
 use the same microcontroller that an Arduino uses: allowing us to compile code directly from the Arduino IDE Compiler.
+
+## Photodiode Circuit
