@@ -6,5 +6,4 @@ permalink: /about/
 
 ![profile](assets/img/profile.jpg)
 
-I am a senior at Olin College of Engineering pursuing a degree in Electrical and Computer
-engineering.
+I am a PhD candidate in Electrical Engineering at Florida Atlantic University. I graduated from Olin College in 2021 with a degree in Electrical and Computer Engineering.
