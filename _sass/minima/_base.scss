@@ -260,3 +260,9 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
